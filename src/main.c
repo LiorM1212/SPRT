@@ -1,5 +1,9 @@
 #include <stdio.h>
+#include "engine.h"
 
 int main(){
-	printf("hello world");
+
+	struct engine stockfish = {"Stockfish", "file PATH"};
+	
+	printf("%s is in %s\n", stockfish.name, stockfish.filepath);
 }
