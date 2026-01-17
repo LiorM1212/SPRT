@@ -1,5 +1,5 @@
 build:
-	gcc -Wall -o SPRT -std=c99 ./src/*.c -lSDL2
+	gcc -Wall -o SPRT -std=c99 ./src/*.c
 	
 run:
 	./SPRT
